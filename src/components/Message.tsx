@@ -1,7 +1,9 @@
+import Fade from './Fade'
 const Message = () => {
   return (
     <div>
-        <div className="m-10 mx-auto p-16 max-md:p-2 lg:p-48 bg-gray-200">   
+        <div className="m-10 mx-auto p-16 max-md:p-2 lg:p-48 bg-gray-200"> 
+            <Fade>
             <div className="relative rounded-lg p-1 mx-22 block md:flex items-center bg-gray-100 shadow-xl max-md:m-0" style={{ minHeight: '19rem'}}>
             <div className="relative w-1/2 max-md:w-80 max-md:mx-auto h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg max-md:my-10" style={{ minHeight: '19rem'}}>
                 <img className="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/premium-vector/cute-dinosaur-cartoon-vector-icon-illustration-flat-cartoon-style-dinosaur-illustration_627305-382.jpg" alt=""/>
@@ -29,6 +31,7 @@ const Message = () => {
                 </svg>
             </div>
             </div>
+            </Fade>  
         </div>
     </div>
   )
