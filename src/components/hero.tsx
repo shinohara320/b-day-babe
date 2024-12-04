@@ -4,7 +4,7 @@ const Hero = () => {
         <div className="card">
 		<div className="imgBox">
 			<div className="bark"></div>
-			<img src="https://img.freepik.com/premium-psd/psd-happy-birthday-poster-with-delicious-birthday-cake-background_796753-163.jpg"/>
+			<img src="src/assets/image/poster.png"/>
 		</div>
 		<div className="details">
 			<h4 className="color1">You're not a Fossil! (YET)</h4>
