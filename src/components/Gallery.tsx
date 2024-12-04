@@ -5,7 +5,6 @@ const Gallery = () => {
         <div className="wrapper">
             <h1 className='text-5xl poppins text-right font-bold text-sky-800 max-md:text-2xl'>Your Memories</h1>
             <p className="text-xl poppins text-right text-sky-800 max-md:text-sm">your 21's memorie hehe</p>
-            <p className="text-xl poppins text-right text-sky-800 max-md:text-sm">taken by your friends hehe</p>
             <Fade>
             <div className="wrapper my-10 flex flex-wrap justify-center gap-5">
               <div className="bg-white text-center rounded-xl">
